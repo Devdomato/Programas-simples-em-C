@@ -1,52 +1,24 @@
-# Prerequisites
-*.d
+//Meu nome é Josafha, programo no celular, sou iniciante e,
+// eu deveria ficar em python, faço isso, mas eu amo o "C". 😂
+#include<stdio.h>
+#include<conio.h>
+   main(){
+    int n, m, r;
+    clrscr();
+    printf("Programa de fazer multiplicação com o número escolhido, feito em C.\n");
+    printf("===========================================");
+    printf("\nEscolha um número: "); 
+    scanf("%d", &n); //O "n" será o número escolhido.
+    for(m=1; m<=10; m++){  //m=1 Significa que iremos começar multiplicando o número escolhido por 1.
+                           //m<=10 significa que a multiplicação irá parar em 10.
+    r = n*m;
+    printf("\n%d x %2d = %3d",n, m, r); //essa parte Significa como será apresentado a multiplicação, ponto importante, o "d" Significa que os números multiplicação serão idênticos a uma tabuada
+                                       // e logo em seguida, n, m e r ficaram no lugar do "%d", "%2d" e "%3d".
+ }
+   getch(); 
+    
+}
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
